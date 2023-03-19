@@ -1,0 +1,164 @@
+Exception time: 03/18/2023, at 22:20:58.
+Exception code: 0xC0000005 (-1073741819) ACCESS_VIOLATION.
+Current thread ID: 9324 (0x0000246c).
+Version information:
+Application/module path: C:\Program Files (x86)\Steam\steamapps\common\SimCity 4 Deluxe\Apps\SimCity 4.exe
+Application/module version name: SimCity 4
+Application/module version: 1.1.641.0
+System version: Windows NT 6.2
+System memory: 4096 Megabytes total, 4096 Megabytes free.
+
+Exception module:  C:\Program Files (x86)\Steam\steamapps\common\SimCity 4 Deluxe\Apps\SimCity 4.exe.
+Exception address: 0x0065ee40. Section:Offset: 0x01:0x00257e40.
+
+Registers
+   EAX: 0019f574
+   EBX: 0019f578
+   ECX: 00000000
+   EDX: 00000185
+   ESI: 00000000
+   EDI: 1eeee59c
+   CS:EIP: 0023:0065ee40
+   SS:ESP: 002b:0019f53c  EBP:0019f573
+   DS:002b  ES:002b  FS:0053  GS:002b
+   Flags: 00210246
+
+Loaded Modules
+   Address          Size Module             Path
+   ----------------------------------------------------------------------------------------------
+   0x00400000    8511488 SimCity 4.exe      C:\Program Files (x86)\Steam\steamapps\common\SimCity 4 Deluxe\Apps\SimCity 4.exe
+   0x77530000    1720320 ntdll.dll          C:\Windows\SYSTEM32\ntdll.dll
+   0x76960000     983040 KERNEL32.DLL       C:\Windows\System32\KERNEL32.DLL
+   0x76ae0000    2211840 KERNELBASE.dll     C:\Windows\System32\KERNELBASE.dll
+   0x5e660000     651264 apphelp.dll        C:\Windows\SYSTEM32\apphelp.dll
+   0x76540000     503808 ADVAPI32.dll       C:\Windows\System32\ADVAPI32.dll
+   0x77020000     782336 msvcrt.dll         C:\Windows\System32\msvcrt.dll
+   0x75740000     483328 sechost.dll        C:\Windows\System32\sechost.dll
+   0x76f60000     778240 RPCRT4.dll         C:\Windows\System32\RPCRT4.dll
+   0x76720000    1691648 USER32.dll         C:\Windows\System32\USER32.dll
+   0x76060000      98304 win32u.dll         C:\Windows\System32\win32u.dll
+   0x76ab0000     143360 GDI32.dll          C:\Windows\System32\GDI32.dll
+   0x76df0000     917504 gdi32full.dll      C:\Windows\System32\gdi32full.dll
+   0x6a3e0000    4546560 WININET.dll        C:\Windows\SYSTEM32\WININET.dll
+   0x75690000     503808 msvcp_win.dll      C:\Windows\System32\msvcp_win.dll
+   0x6ae90000      32768 WSOCK32.dll        C:\Windows\SYSTEM32\WSOCK32.dll
+   0x75900000    1179648 ucrtbase.dll       C:\Windows\System32\ucrtbase.dll
+   0x760c0000     405504 WS2_32.dll         C:\Windows\System32\WS2_32.dll
+   0x75a20000    5992448 SHELL32.dll        C:\Windows\System32\SHELL32.dll
+   0x75710000     151552 IMM32.dll          C:\Windows\System32\IMM32.dll
+   0x74690000     163840 WINMM.dll          C:\Windows\SYSTEM32\WINMM.dll
+   0x73f80000      32768 VERSION.dll        C:\Windows\SYSTEM32\VERSION.dll
+   0x61dd0000     520192 DSOUND.dll         C:\Windows\SYSTEM32\DSOUND.dll
+   0x63d70000    1060864 OPENGL32.dll       C:\Windows\SYSTEM32\OPENGL32.dll
+   0x762b0000    2625536 combase.dll        C:\Windows\System32\combase.dll
+   0x740a0000     278528 powrprof.dll       C:\Windows\SYSTEM32\powrprof.dll
+   0x67550000     139264 MSVFW32.dll        C:\Windows\SYSTEM32\MSVFW32.dll
+   0x67110000     118784 winmmbase.dll      C:\Windows\SYSTEM32\winmmbase.dll
+   0x63c00000     258048 GLU32.dll          C:\Windows\SYSTEM32\GLU32.dll
+   0x6d0b0000     577536 COMCTL32.dll       C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1110_none_c0da534e38c01f4d\COMCTL32.dll
+   0x6e9d0000      53248 UMPDC.dll          C:\Windows\SYSTEM32\UMPDC.dll
+   0x79710000    1347584 gameoverlayrendere C:\Program Files (x86)\Steam\gameoverlayrenderer.dll
+   0x757c0000     929792 ole32.dll          C:\Windows\System32\ole32.dll
+   0x755e0000     614400 OLEAUT32.dll       C:\Windows\System32\OLEAUT32.dll
+   0x762a0000      24576 PSAPI.DLL          C:\Windows\System32\PSAPI.DLL
+   0x768c0000     102400 bcrypt.dll         C:\Windows\System32\bcrypt.dll
+   0x6ec70000     335872 MSWSOCK.dll        C:\Windows\SYSTEM32\MSWSOCK.dll
+   0x754a0000     552960 shcore.dll         C:\Windows\System32\shcore.dll
+   0x74ba0000      40960 CRYPTBASE.DLL      C:\Windows\SYSTEM32\CRYPTBASE.DLL
+   0x76000000     389120 bcryptPrimitives.d C:\Windows\System32\bcryptPrimitives.dll
+   0x6f190000    6340608 windows.storage.dl C:\Windows\SYSTEM32\windows.storage.dll
+   0x6ecd0000     159744 Wldp.dll           C:\Windows\SYSTEM32\Wldp.dll
+   0x758b0000     282624 shlwapi.dll        C:\Windows\System32\shlwapi.dll
+   0x74b90000      61440 kernel.appcore.dll C:\Windows\SYSTEM32\kernel.appcore.dll
+   0x74b10000     475136 uxtheme.dll        C:\Windows\system32\uxtheme.dll
+   0x768e0000     516096 clbcatq.dll        C:\Windows\System32\clbcatq.dll
+   0x67a50000     794624 PROPSYS.dll        C:\Windows\SYSTEM32\PROPSYS.dll
+   0x681b0000     917504 rasapi32.dll       C:\Windows\SYSTEM32\rasapi32.dll
+   0x68340000     176128 rasman.dll         C:\Windows\SYSTEM32\rasman.dll
+   0x6e9e0000      57344 msasn1.dll         C:\Windows\SYSTEM32\msasn1.dll
+   0x6d040000     155648 cryptnet.dll       C:\Windows\SYSTEM32\cryptnet.dll
+   0x765c0000    1024000 CRYPT32.dll        C:\Windows\System32\CRYPT32.dll
+   0x69f60000    1048576 drvstore.dll       C:\Windows\SYSTEM32\drvstore.dll
+   0x6e9a0000     147456 devobj.dll         C:\Windows\SYSTEM32\devobj.dll
+   0x76080000     241664 cfgmgr32.dll       C:\Windows\System32\cfgmgr32.dll
+   0x75450000     315392 WINTRUST.DLL       C:\Windows\System32\WINTRUST.DLL
+   0x75fe0000     102400 imagehlp.dll       C:\Windows\System32\imagehlp.dll
+   0x74bb0000      77824 CRYPTSP.dll        C:\Windows\SYSTEM32\CRYPTSP.dll
+   0x746c0000     192512 rsaenh.dll         C:\Windows\system32\rsaenh.dll
+   0x6bee0000     122880 gpapi.dll          C:\Windows\SYSTEM32\gpapi.dll
+   0x6d9b0000      98304 profapi.dll        C:\Windows\SYSTEM32\profapi.dll
+   0x67b20000     180224 dxcore.dll         C:\Windows\SYSTEM32\dxcore.dll
+   0x76d10000     868352 MSCTF.dll          C:\Windows\System32\MSCTF.dll
+   0x67950000     761856 textinputframework C:\Windows\SYSTEM32\textinputframework.dll
+   0x67630000    2613248 CoreUIComponents.d C:\Windows\SYSTEM32\CoreUIComponents.dll
+   0x74130000     167936 ntmarta.dll        C:\Windows\SYSTEM32\ntmarta.dll
+   0x678b0000     634880 CoreMessaging.dll  C:\Windows\SYSTEM32\CoreMessaging.dll
+   0x6bbb0000     897024 wintypes.dll       C:\Windows\SYSTEM32\wintypes.dll
+   0x7c050000     954368 DDRAW.DLL          C:\Windows\SYSTEM32\DDRAW.DLL
+   0x67b50000     794624 dxgi.dll           C:\Windows\SYSTEM32\dxgi.dll
+   0x67540000      28672 DCIMAN32.dll       C:\Windows\SYSTEM32\DCIMAN32.dll
+   0x6a060000     937984 nvldumd.dll        C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_ee20464bb4ac57f4\nvldumd.dll
+   0x68ac0000   21590016 nvd3dum.dll        C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_ee20464bb4ac57f4\nvd3dum.dll
+   0x798f0000     405504 D3DIM700.DLL       C:\Windows\SYSTEM32\D3DIM700.DLL
+   0x62020000     438272 MMDevApi.dll       C:\Windows\System32\MMDevApi.dll
+   0x61e90000    1269760 AUDIOSES.DLL       C:\Windows\SYSTEM32\AUDIOSES.DLL
+   0x6a2e0000     155648 dwmapi.dll         C:\Windows\SYSTEM32\dwmapi.dll
+   0x50000000      61440 resourcepolicyclie C:\Windows\SYSTEM32\resourcepolicyclient.dll
+   0x686e0000    2281472 iertutil.dll       C:\Windows\SYSTEM32\iertutil.dll
+   0x6e320000     135168 SspiCli.dll        C:\Windows\SYSTEM32\SspiCli.dll
+   0x68380000      73728 ondemandconnrouteh C:\Windows\SYSTEM32\ondemandconnroutehelper.dll
+   0x744b0000     827392 winhttp.dll        C:\Windows\SYSTEM32\winhttp.dll
+   0x74580000     204800 IPHLPAPI.DLL       C:\Windows\SYSTEM32\IPHLPAPI.DLL
+   0x68370000      32768 WINNSI.DLL         C:\Windows\SYSTEM32\WINNSI.DLL
+   0x06960000      28672 NSI.dll            C:\Windows\System32\NSI.dll
+   0x51c00000     995328 Windows.UI.dll     C:\Windows\System32\Windows.UI.dll
+   0x51b80000     471040 WindowManagementAP C:\Windows\System32\WindowManagementAPI.dll
+   0x6bc90000    1634304 twinapi.appcore.dl C:\Windows\SYSTEM32\twinapi.appcore.dll
+   0x63ad0000     970752 InputHost.dll      C:\Windows\System32\InputHost.dll
+   0x61fd0000      32768 avrt.dll           C:\Windows\SYSTEM32\avrt.dll
+   0x6d510000     507904 DbgHelp.dll        C:\Program Files (x86)\Steam\steamapps\common\SimCity 4 Deluxe\Apps\DbgHelp.dll
+
+Call stack:
+(Debug information (.pdb files) appears to be absent).
+0x0001:0x00257e40 C:\Program Files (x86)\Steam\steamapps\common\SimCity 4 Deluxe\Apps\SimCity 4.exe.
+0x0000:0x00000000 .
+0x0000:0x00000000 .
+0x0001:0x001cda10 C:\Program Files (x86)\Steam\steamapps\common\SimCity 4 Deluxe\Apps\SimCity 4.exe.
+0x0000:0x00000000 .
+0x0000:0x00000000 .
+
+Stack data: (ESP is 0x0019f53c)
+0x0019f3bc   00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+0x0019f3dc   00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+0x0019f3fc   00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+0x0019f41c   00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+0x0019f43c   00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+0x0019f45c   00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+0x0019f47c   00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+0x0019f49c   00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+0x0019f4bc   00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+0x0019f4dc   00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+0x0019f4fc   00000000 00000000 00000000 62cf9000 0c000000 640c7500 0c000000 14d0ea1e 
+0x0019f51c   7e0b9300 b0162004 9826b600 ed515000 9ce5ee1e 9ce5ee1e 00000000 30ee6500 
+0x0019f53c   9ce5ee1e 00000000 02000000 14d0ea1e 00000000 c4e5ee1e 770b6600 74f51900 
+0x0019f55c   78f51900 ffff7f7f 00000000 14e4ee1e 2cb59843 2a170000 78f51900 10b39843 
+0x0019f57c   c44be61f 14e4ee1e d4a62e24 00000000 2a170000 354f6400 01000000 14e4ee1e 
+0x0019f59c   00000000 0c000000 08b99843 08b99843 84698722 b85fb400 2cb59843 08b99843 
+0x0019f5bc   08b99843 00000000 b8e4ee1e 01d36200 9ce5ee1e 7f000000 1459e91e 2b000000 
+0x0019f5dc   1cee1a2f 2b000000 01000000 08000000 6046b528 0c000000 81000000 2d000000 
+0x0019f5fc   54ac2e24 00000000 02000200 14698722 84698722 94698722 7f000000 2b000000 
+0x0019f61c   1cee1a2f 1459e91e 1cee1a2f 01446203 f4ae132f 00000000 00000000 00000000 
+0x0019f63c   74166600 7f000000 2b000000 1cee1a2f 10000000 1459e91e 2048d11f 00000000 
+0x0019f65c   1448d11f 00000001 2b000000 14e4ee1e 00000000 80f61900 b052b400 c0f61900 
+0x0019f67c   ade80300 00003040 feffffff 0000ff44 90ba9843 00002e44 80000000 7f000000 
+0x0019f69c   02039900 0000803f 00000000 00000000 00000000 0000803f 00000000 00000000 
+
+Instruction data: (EIP is 0x0065ee40)
+0x0065edc0   24 10 51 8d 4f 28 c7 44 24 28 ff ff 7f 7f 33 f6 e8 bb 15 e5 ff 8b 4c 24 10 85 c9 8b 5c 24 20 74 
+0x0065ede0   59 d9 41 0c 8d 51 08 d8 22 d8 15 54 10 a8 00 df e0 f6 c4 05 7b 70 d8 54 24 24 df e0 f6 c4 05 7a 
+0x0065ee00   0b 8b 59 04 d9 5c 24 24 8b f2 eb 02 dd d8 d9 05 54 10 a8 00 d9 44 24 24 da e9 df e0 f6 c4 44 7b 
+0x0065ee20   19 8b 09 85 c9 75 0b 8d 4c 24 10 e8 c0 ee ed ff 8b c8 85 c9 89 4c 24 10 75 a7 8b 44 24 1c 89 18 
+0x0065ee40   8b 4e 18 f6 c1 02 74 34 d9 46 08 d8 56 04 df e0 f6 c4 41 7a 25 d8 1e df e0 f6 c4 01 75 1e 8b 56 
+0x0065ee60   08 e9 c4 00 00 00 8b 51 04 dd d8 5e 5b 89 57 10 5f 32 c0 5d 83 c4 08 c2 0c 00 dd d8 f6 c1 04 8b 
+0x0065ee80   06 8b 56 04 89 44 24 10 89 54 24 14 74 65 d9 44 24 10 d8 5e 0c df e0 f6 c4 05 7a 07 8b 46 0c 89 
+0x0065eea0   44 24 10 d9 44 24 14 d8 5e 10 df e0 f6 c4 41 75 07 8b 4e 10 89 4c 24 14 d9 44 24 14 d8 5c 24 10 
